@@ -21,7 +21,7 @@ func LoginHandler(c *gin.Context) {
 	}
 
 	if credentials.Username == hardcodedUsername && credentials.Password == hardcodedPassword {
-		c.JSON(http.StatusOK, gin.H{"token": "Jadis1ngA"})
+		c.JSON(http.StatusOK, gin.H{"token": "kjdfhgkjdfhgkjdfhg"})
 		return
 	} else {
 		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid username or password"})
